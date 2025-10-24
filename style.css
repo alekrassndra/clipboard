@@ -107,7 +107,6 @@ header div a,
   background-color: #8896ff;
 }
 
-/* прогалик це також комбінатор, комбінатор ієрархії */
 section h2 {
   max-width: 730px;
   font-weight: 600;
@@ -266,7 +265,6 @@ footer {
 /* path:hover {
   fill: #26BBA4;
 } */
-/* ^^^ чому це не спрацює? відповідь path у svg як background-color у звичайних html елементах. Ніби ховер працює, але якщо у значка інстаграму не потрапити курсором на сам елемент то ховер перестає працювати */
 
 svg path {
   transition: fill 0.5s ease;
@@ -275,3 +273,4 @@ svg path {
 svg:hover path {
   fill: #26bba4;
 }
+
