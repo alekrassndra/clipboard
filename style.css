@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #4c545c;
+}
+
+body {
+  font-family: "Bai Jamjuree", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: "Bai Jamjuree", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+section {
+  max-width: 1130px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header {
+  padding-top: 130px;
+  /* margin-top: 130px; */
+  padding-bottom: 75px;
+}
+
+header img {
+  margin-bottom: 56px;
+}
+
+header h1 {
+  margin-bottom: 16px;
+  font-size: 46px;
+  line-height: 58px;
+  letter-spacing: -0.75px;
+  color: #4c545c;
+}
+
+header p {
+  margin-bottom: 48px;
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  color: #9eabb2;
+}
+
+header div a,
+.clipboard div a {
+  display: inline-block;
+  width: 227px;
+  height: 56px;
+  border-radius: 28px;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  padding-top: 13px;
+  transition: background-color 0.5s ease;
+}
+
+.green {
+  background-color: #26bba4;
+  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+.violet {
+  background-color: #6174ff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+.green:hover {
+  background-color: #5dccbb;
+}
+
+.violet:hover {
+  background-color: #8896ff;
+}
+
+/* прогалик це також комбінатор, комбінатор ієрархії */
+section h2 {
+  max-width: 730px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: -0.6px;
+  color: #4c545c;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section p {
+  max-width: 730px;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.135px;
+  color: #9eabb2;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.keep {
+  margin-bottom: 80px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.computer {
+  column-gap: 100px;
+  align-items: flex-start;
+}
+
+.computer div {
+  max-width: 350px;
+  text-align: left;
+  flex-direction: column;
+  row-gap: 56px;
+}
+
+/* .computer article {} */
+
+.computer article h3 {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.4px;
+  color: #4c545c;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.computer article p {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+}
+
+main section {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.access {
+  margin-bottom: 110px;
+}
+.charge {
+  margin-bottom: 72px;
+}
+.items {
+  column-gap: 30px;
+}
+
+.imgpadd {
+  padding-bottom: 12px;
+}
+
+.items img {
+  margin-bottom: 40px;
+}
+.items h3 {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.4px;
+  color: #4c545c;
+}
+
+.items p {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+}
+
+.logos {
+  justify-content: space-between;
+}
+
+.clip {
+  margin-bottom: 48px;
+}
+
+footer {
+  background-color: rgba(158, 171, 178, 0.1);
+  height: 150px;
+}
+
+.footer {
+  justify-content: flex-start;
+  height: 72px;
+  width: 100%;
+}
+
+.footer img {
+  margin-right: 135px;
+}
+.menu {
+  max-width: 540px;
+  width: 100%;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  /* row-gap: 12px; */
+  align-content: space-between;
+  height: inherit;
+  text-align: left;
+}
+
+.menu li {
+  width: 160px;
+}
+
+.menu li a {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.135px;
+  color: #4c545c;
+}
+.social {
+  margin-left: auto;
+  column-gap: 24px;
+}
+.social li {
+  line-height: 0;
+}
+.social a {
+  line-height: 0;
+  font-size: 0;
+}
+
+/* path:hover {
+  fill: #26BBA4;
+} */
+/* ^^^ чому це не спрацює? відповідь path у svg як background-color у звичайних html елементах. Ніби ховер працює, але якщо у значка інстаграму не потрапити курсором на сам елемент то ховер перестає працювати */
+
+svg path {
+  transition: fill 0.5s ease;
+}
+
+svg:hover path {
+  fill: #26bba4;
+}
